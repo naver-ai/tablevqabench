@@ -1,0 +1,1 @@
+python ./src/evaluate.py --evaluation_datasets vwtq vwtq_syn vtabfact fintabnetqa
