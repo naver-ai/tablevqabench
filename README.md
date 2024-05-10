@@ -38,7 +38,7 @@ Output of inference: `outputs/gpt4v`
 
 ### Evaluation
 ```
-python ./src/evaluate.py --root_input_path [INFERENCE OUTPUT] --output_path [YOUR OUTPUT]
+python ./src/evaluate.py --root_input_path [INFERENCE OUTPUT] --output_path [YOUR OUTPUT] --evaluation_datasets vwtq vwtq_syn vtabfact fintabnetqa
 ```
 Example of evaluation: `evaluate_tablevqa.sh`
 
