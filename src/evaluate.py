@@ -14,6 +14,7 @@ def main(args):
     evaluation_datasets = args.evaluation_datasets
     score_keys = "accuracy"   
     os.makedirs(args.output_path, exist_ok=True)
+    print(f"# [info] Output Folder: {args.output_path}") 
 
     # get evaluation dataset paths
     evaluation_dataset_paths = _get_input_paths(
