@@ -55,7 +55,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--evaluation_datasets",
         type=str,
-        required=True,
+        default=["vwtq", "vwtq_syn", "vtabfact", "fintabnetqa"],
         nargs="+",
         help="names of evaluation dataset. candidates: vwtq, vwtq_syn, vtabfact, fintabnetqa",    
     )   
